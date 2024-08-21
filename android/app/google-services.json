@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "706787444424",
+    "project_id": "fire-base-project-1e4e3",
+    "storage_bucket": "fire-base-project-1e4e3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706787444424:android:0faab92d88ba8bf0ee07fd",
+        "android_client_info": {
+          "package_name": "com.ToDoList.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJUfYGDlw08hQ2Xw_j2rJuNjfMP0uii9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:706787444424:android:aa29753d6ef4b1c6ee07fd",
+        "android_client_info": {
+          "package_name": "com.toDoListApp.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJUfYGDlw08hQ2Xw_j2rJuNjfMP0uii9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
