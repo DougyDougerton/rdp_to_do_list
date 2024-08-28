@@ -1,6 +1,6 @@
 {
-    "name": "rdp_to_do_list",
-    "short_name": "rdp_to_do_list",
+    "name": "rdp_todolist3",
+    "short_name": "rdp_todolist3",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,21 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:rdp_to_do_list/screens/home_page.dart';
+import 'package:rdp_todolist/screens/home_page.dart';
 import 'firebase_options.dart';
 
 void main() async {
-  runApp(const MainApp());
-
-    //Initialize Flutter bindings
+  //Initialize Flutter bindings
   WidgetsFlutterBinding.ensureInitialized();
 
-//Initialize Firebase with the current platform's default opitions
-await Firebase.initializeApp(
-  options: DefaultFirebaseOptions.currentPlatform,
-);
+  //Initialize Firebase with the current platform's default options
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 
-runApp(const MainApp());
-
+  runApp(const MainApp());
 }
 
 class MainApp extends StatelessWidget {
@@ -24,11 +21,11 @@ class MainApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'To-do list',
+      title: 'To-Do List',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const HomePage(),
+      home: HomePage(),
     );
   }
 }
